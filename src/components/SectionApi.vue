@@ -13,11 +13,10 @@ export default {
     name: 'SectionApi',
     data() {
         return {
-            news: null,
-        }
+            news: null        }
     },
     mounted() {
-        fetch('https://newsapi.org/v2/top-headlines?country=co&category=sports&apiKey=8982d839d7174ed0959e518d808770ea', {method: 'GET'})
+        fetch('http://www.omdbapi.com/?apikey=c6b2da83&t=brave&type=movie', {method: 'GET'})
         .then(response => {
             (this.news = response)
             console.log(this.news)
