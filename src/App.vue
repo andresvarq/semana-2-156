@@ -1,7 +1,14 @@
 <template>
   <div id="app">
 
+    <top-menu></top-menu>
+
+    <main-banner></main-banner>
+
+    <div class="container-fluid" id="news">
     <section-api></section-api>
+    </div>
+
 
     <div class="container-fluid" id="team">
     <div class="row justify-content-center mb-5">
@@ -10,9 +17,9 @@
     </div>
     </div>
     </div>
-
-
+    
     <page-footer></page-footer>
+    
   </div>
 </template>
 
@@ -21,6 +28,8 @@
 import PageFooter from './components/PageFooter.vue';
 import TeamCard from './components/TeamCard.vue';
 import SectionApi from './components/SectionApi.vue';
+import TopMenu from './components/TopMenu.vue'
+import MainBanner from './components/MainBanner.vue';
 
 export default {
 
@@ -30,6 +39,8 @@ export default {
     PageFooter,
     TeamCard,
     SectionApi,
+    TopMenu,
+    MainBanner,
   },
   data () {
     return {
