@@ -1,27 +1,31 @@
 <template>
-    <div>
-        
-    </div>
+    
 </template>
 
 <script>
-
-import axios from 'axios';
-
-
 export default {
     name: 'SectionApi',
-    data() {
-        return {
-            news: null        }
+    data(){
+        news: null
     },
-    mounted() {
-        fetch('http://www.omdbapi.com/?apikey=c6b2da83&t=brave&type=movie', {method: 'GET'})
-        .then(response => {
-            (this.news = response)
-            console.log(this.news)
-        })
+    mounted(){
+        fetch("https://api-football-v1.p.rapidapi.com/v2/predictions/157462", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "24c5dd9bbamshf3f8ce442013e00p1187a2jsnd442d6f65bda",
+		"x-rapidapi-host": "api-football-v1.p.rapidapi.com"
+	}
+})
+.then(response => {
+	console.log(response);
+})
+.catch(err => {
+	console.error(err);
+});
     }
 }
-
 </script>
+
+<style scoped>
+
+</style>
