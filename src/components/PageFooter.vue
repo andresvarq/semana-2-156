@@ -6,7 +6,7 @@
             <div class="col-md-6 mt-md-0 mt-3">
                 <p>Porque, para nosotros, el Fútbol, más que pasión por un deporte es pasión por el arte del esférico, consideramos importante resignificarlo a partir de los equipos locales, y lo hacemos, no como periodistas sino como hinchas.</p>
                 <address >
-                    <a href="https://github.com/andresvarq/semana-1-156" style="color: #f51720;">Visítanos</a>
+                    <a href="https://github.com/andresvarq/semana-2-156" style="color: #f51720;">Visítanos</a>
                 </address>
             </div>
             <hr class="clearfix w-100 d-md-none pb-3">
