@@ -3,7 +3,9 @@
 
     <top-menu></top-menu>
 
+    <div class="media">
     <main-banner></main-banner>
+    </div>
 
     <div class="container-fluid" id="news">
     <section-api></section-api>
@@ -64,14 +66,14 @@ export default {
           nombre: "Santiago Muñoz",
           descripcion: "Joven de 27 años, mi mayor pasatiempos es la investigación, charlas grupales, los videojuegos y el deporte, aprendiz de programación.",
           rol: 'Dueño del Proyecto',
-          image: './components/img/Foto-Santiago-Muñoz-min.png',
+          image: './components/img/Foto-Santiago-Muñoz-min.jpg',
         },
         {
           codigo: 4,
           nombre: "Andrés Felipe Vargas",
           descripcion: "Trasegante por el mundo con una guitarra y una palabra, amante de los idiomas, la música y los deportes, fiel seguidor de la comida callejera.",
           rol: 'Administrador del sitio web',
-          image: './components/img/Foto-Andres-Felipe-Vargas-min.jpg',
+          image: "./components/img/Foto-Andres-Felipe-Vargas-min.jpg"
         },
       ],
     };
